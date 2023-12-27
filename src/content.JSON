@@ -1,0 +1,20 @@
+{
+  "general": {
+    "f_name": "Oluwasola",
+    "l_name": "Dugbo",
+    "short_name": "sola",
+    "title": "Software Engineer",
+    "nav_links": {
+      "github": "https://github.com/DugboTek",
+      "linkedin": "https://www.linkedin.com/in/sola-dugbo-8955a31a6/",
+      "email": "sdugbo@gmail.com"
+    }
+  },
+  "repo_stats": {
+    "section": {
+      "enable_section": true
+    },
+    "repo_link": "https://github.com/",
+    "api_link": "https://api.github.com/repos/Dugbotek/DugboTek.comV2"
+  }
+}
