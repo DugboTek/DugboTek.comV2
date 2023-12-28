@@ -1,11 +1,11 @@
 {
   "general": {
-    "f_name": "Oluwasola",
-    "l_name": "Dugbo",
-    "short_name": "sola",
-    "title": "Software Engineer",
-    "nav_links": {
+    "first_name": "Oluwasola",
+    "middle_name": "Nathaniel",
+    "last_name": "Dugbo",
+    "navbar_social_links": {
       "github": "https://github.com/DugboTek",
+      "handshake": "https://app.joinhandshake.com/stu/users/24749440",
       "linkedin": "https://www.linkedin.com/in/sola-dugbo-8955a31a6/",
       "email": "sdugbo@gmail.com"
     }
@@ -14,7 +14,435 @@
     "section": {
       "enable_section": true
     },
-    "repo_link": "https://github.com/",
+    "repo_link": "https://github.com/DugboTek/DugboTek.comV2",
     "api_link": "https://api.github.com/repos/Dugbotek/DugboTek.comV2"
+  },
+  "intro_screen": {
+    "section": {
+      "enable_section": true
+    },
+    "main_header": "Hello, Sola here.",
+    "main_subtitle": "Developer. Student. Creator.",
+    "intro_bio": [
+      "I'm currently a Senior attending Villanova University,",
+      "Majoring in Computer Engineering with minor in Mechatronics.",
+      "I have a profound interest in Robotics, Machine Learning",
+      "Full-stack development, and everything in between."
+    ],
+    "email_button": "Say hello to me!"
+  },
+  "about_me": {
+    "section": {
+      "enable_section": true,
+      "title": "~/About",
+      "navbar_name": "/About",
+      "description": "Brief information about me and some of my interests."
+    },
+    "headShotUrl": "./images/headshotphoto.png",
+    "bio": [
+      "I am currently studying computer science at St. Mary's University with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
+      "I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, online window shopping, thrifting, and playing Minecraft multiplayer servers."
+    ],
+    "skills_caption": "Some technologies I've worked with:",
+    "skills": [
+      "Java",
+      "C",
+      "C++",
+      "JavaScript ES6+",
+      "Python 3",
+      "HTML & CSS",
+      "Swift",
+      "SQL",
+      "React.js",
+      "Node.js",
+      "Linux OS & Git",
+      "AWS & Azure",
+      "Docker",
+      "MongoDB",
+      "Bit level manipulation"
+    ]
+  },
+  "academics": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Education",
+      "navbar_name": "/Academics",
+      "description": "Courses that I have completed or am on track to complete. Current GPA: 3.39"
+    },
+    "general": {
+      "school": "Villanova University",
+      "degree": "Bachelor of Science in Computer Engineering",
+      "start_year": 2020,
+      "end_year": 2024
+    },
+    "years": [
+      {
+        "year": 2020,
+        "semester": "Fall",
+        "courses": [
+          {
+            "abbreviation": "ACS 1000",
+            "name": "Ancients",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CHM 1151",
+            "name": "General Chemistry I",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "EGR 1200",
+            "name": "Egr. Interdisciplinary Proj. I",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "MAT 1500",
+            "name": "Calculus I",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "THL 1000",
+            "name": "Faith, Reason, and Culture",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "semester": "Spring",
+        "courses": [
+          { "abbreviation": "ACS 1001", "name": "Moderns", "credits": 3.0 },
+          {
+            "abbreviation": "ECE 1205",
+            "name": "ECE Freshman Projects",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 1620",
+            "name": "Egr Prog & Applic",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "EGR 1002",
+            "name": "Career Compass First Yr A",
+            "credits": 0.5
+          },
+          { "abbreviation": "MAT 1505", "name": "Calculus II", "credits": 4.0 },
+          {
+            "abbreviation": "PHY 2400",
+            "name": "Physics I Mechanics",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "semester": "Spring",
+        "courses": [
+          {
+            "abbreviation": "ECE 2044",
+            "name": "Fundamentals of CPE II",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 2409",
+            "name": "Fundamentals of MATLAB",
+            "credits": 2.0
+          },
+          {
+            "abbreviation": "ECE 2620",
+            "name": "C++, Algorithms & Data Struct",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "MAT 2705",
+            "name": "Diff Equation with Linear Alg",
+            "credits": 4.0
+          },
+          { "abbreviation": "ME 2100", "name": "Statics", "credits": 3.0 }
+        ]
+      },
+      {
+        "year": 2022,
+        "semester": "Spring",
+        "courses": [
+          {
+            "abbreviation": "CSC 1300",
+            "name": "Discrete Structures",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 2030",
+            "name": "Electrical Circuit Fundamental",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 2042",
+            "name": "Fundamentals of CPE I",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 2043",
+            "name": "Fund of Comp Engineering I Lab",
+            "credits": 1.0
+          },
+          {
+            "abbreviation": "ME 2101",
+            "name": "Dynamic Systems I",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "semester": "Fall",
+        "courses": [
+          {
+            "abbreviation": "CRM 1001",
+            "name": "Introduction to Criminology",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "CSC 2014",
+            "name": "Java Bootcamp",
+            "credits": 1.0
+          },
+          {
+            "abbreviation": "ECE 3445",
+            "name": "Computer Architecture",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "ECE 3450",
+            "name": "Digital Electronics",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 3600",
+            "name": "Operating Systems",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 3720",
+            "name": "Eng Probability & Statistics",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "semester": "Spring",
+        "courses": [
+          {
+            "abbreviation": "ECE 3245",
+            "name": "Discrete Time Signals & System",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 3476",
+            "name": "Computer and Network Security",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 4470",
+            "name": "Computer Networks",
+            "credits": 4.0
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "semester": "Fall",
+        "courses": [
+          {
+            "abbreviation": "CSC 4480",
+            "name": "Principles of Database Systems",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "PHY 2402",
+            "name": "Physics II Elec & Magnet",
+            "credits": 3.0
+          }
+        ]
+      }
+    ],
+    "coursesInProgress": [
+      {
+        "term": "Fall 2023",
+        "courses": [
+          {
+            "abbreviation": "ECE 4971",
+            "name": "Design Project - CPE",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 5450",
+            "name": "Microcontrollers & Applic",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "THL 5005",
+            "name": "THM: Religs Tradtns ofMid East",
+            "credits": 3.0
+          }
+        ]
+      },
+      {
+        "term": "Spring 2024",
+        "courses": [
+          {
+            "abbreviation": "CSC 4181",
+            "name": "Compiler Construction",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ECE 4973",
+            "name": "Design Project Report - CPE",
+            "credits": 1.0
+          },
+          {
+            "abbreviation": "ECE 5390",
+            "name": "Control System Design",
+            "credits": 4.0
+          },
+          {
+            "abbreviation": "MAT 4270",
+            "name": "Numerical Analysis",
+            "credits": 3.0
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Experience",
+      "navbar_name": "/Experience",
+      "description": "Positions, team projects, or organizations I am/have been a part of."
+    },
+    "experience_items": [
+      {
+        "organization": "Publicis Sapient",
+        "link": "https://npengagement.com",
+        "title": "Full Stack Developer Intern",
+        "start_date": "June 2023",
+        "end_date": "August 2023",
+        "description": [
+          "Led full stack development of an E-Commerce car parts web app for Polaris, Utilized AWS CloudSearch, Lambda, Aurora, MySQL, GraphQL, and React.",
+          "Led a team of eight intern developers as the only Full Stack Engineer.",
+          "Learned architecture design and CICD in an Agile software development cycle. "
+        ]
+      },
+      {
+        "organization": "Formula SAE - Nova Racing",
+        "title": "Driver Controls Lead",
+        "start_date": "Jan 2021",
+        "end_date": " May 2024",
+        "description": [
+          "Designed, manufactured, and validated parts for formula-style race car to compete in a collegiate competition.",
+          "Worked with the team to design and implement a custom steering wheel with a CAN bus interface to control the car's systems.",
+          "Designed and manufactured carbon fiber parts for the car using a CNC machine and 3D printer.",
+          "2022 Michigan International Speedway FSAE competition 2nd place overall out of 99 international teams."
+        ]
+      },
+
+      {
+        "organization": "Infinite Loops",
+        "title": "Club Vice President",
+        "start_date": "May 2022",
+        "end_date": " April 2023",
+        "description": [
+          "Supported the president in all aspects of club leadership, including meeting planning and execution, task delegation, and activity organization.",
+          "Managed meeting presentations and oversaw the work of other officers and club members.",
+          "Oversaw the organization's app development team where we created a Dart application to display top student favorite locations.",
+          "Collaborated with a team to enhance the growth of clients' businesses and traffic."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "section": {
+      "enable_section": true,
+      "title": "~/Projects",
+      "navbar_name": "/Projects",
+      "description": "Some of my most recent or past favorite creations or work."
+    },
+    "project_items": [
+      {
+        "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
+        "project_name": "Hycord Bot",
+        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
+        "resources_used": ["HTML", "Discord.py", "Hypixel API"],
+        "start_date": "Dec 2022",
+        "end_date": "Present",
+        "links": [
+          {
+            "href": "https://www.hycord.net",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Information Page"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          },
+          {
+            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "icon": "FaDownload",
+            "data_tooltip": "Download Project"
+          }
+        ]
+      },
+      {
+        "use_git_api": true,
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio",
+        "project_name": "Reactfolio V2",
+        "description": "An e-portfolio built with React.js that utilizes GitHub API. Designed for public use and easy configuration. The second iteration of my website.",
+        "resources_used": [
+          "React.js",
+          "NVM",
+          "HTML & CSS",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ],
+        "start_date": "Sept 2023",
+        "end_date": "Present",
+        "links": [
+          {
+            "href": "https://github.com/KevinTrinh1227/Reactfolio",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "",
+        "project_name": "STMU Yelp",
+        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
+        "resources_used": ["Dart/Flutter", "Andriod Studio"],
+        "start_date": "Sept 2022",
+        "end_date": "May 2023",
+        "links": [
+          {
+            "href": "https://github.com/sonono-no/Stmu-Yelp",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "line_one": "Built & designed by",
+    "copyright_line": "All rights reserved."
+  },
+  "error_page": {
+    "title": "Error 404",
+    "description": "The page you are looking for does not exist. Chose one of the following links to continue."
   }
 }
