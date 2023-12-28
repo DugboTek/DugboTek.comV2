@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import contentData from "../content.json";
 import { Fade } from "react-awesome-reveal";
 
 const Education = () => {
   // Extract the education data from the contentData file
   const education = contentData.academics;
+  const [showMore, setShowMore] = useState(false);
+  const [showButton, setShowButton] = useState(true);
 
   // Calculate the total credits for each year
   const totalCreditsPerYear = education.years.map((year) => {
@@ -14,6 +16,8 @@ const Education = () => {
       }, 0)
     );
   });
+
+  education.years.sort((a, b) => b.year - a.year);
 
   // Render the education section
   return (
@@ -33,7 +37,53 @@ const Education = () => {
           <div className="row">
             <div className="col-sm-12">
               <div className="row">
-                {education.years.map((year, index) => (
+                <div className="col-md-6">
+                  <Fade delay={0} cascade={false} triggerOnce={true}>
+                    <div className="education">
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>
+                              {education.years[0].semester}{" "}
+                              {education.years[0].year} Courses
+                            </th>
+                            <th>Credits</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {education.years[0].courses.map((course, index) => (
+                            <tr key={index}>
+                              <td data-tooltip={course.abbreviation}>
+                                {course.name}
+                              </td>
+                              <td>{course.credits.toFixed(1)}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </Fade>
+                </div>
+              </div>
+              {education.years.length > 1 && (
+                <div className="row">
+                  <div className="col-sm-12">
+                    {showButton && (
+                      <button
+                        className="show-more-button"
+                        onClick={() => {
+                          setShowMore(true);
+                          setShowButton(false);
+                        }}
+                      >
+                        Show More
+                      </button>
+                    )}
+                  </div>
+                </div>
+              )}
+              {showMore &&
+                education.years.map((year, index) => (
                   <div className="col-md-6" key={index}>
                     <Fade
                       delay={index * 200}
@@ -65,7 +115,6 @@ const Education = () => {
                     </Fade>
                   </div>
                 ))}
-              </div>
             </div>
           </div>
         </div>

@@ -40,8 +40,10 @@
     },
     "headShotUrl": "./images/headshotphoto.png",
     "bio": [
-      "I am currently studying computer science at St. Mary's University with a focus in computer science with a minor in mathematics. Recently, I was an undergrad research intern at the McNair Research Program of STMU, a Post-Baccalaureate Achievement Program. Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
-      "I have a profound interest in numerous types of software development such as machine learning, operating systems, and especially in full-stack development. I'm a huge desk setup and PC enthusiast. In my free time, I enjoy playing/analyzing chess games, online window shopping, thrifting, and playing Minecraft multiplayer servers."
+      "All my life I have strived to gain the most out of understanding and learning from mistakes. I find that not only learning from others but also self-analysis is important for growth.",
+      "I find my passion for helping others through robotics and I am continuing that dream at Villanova University studying Computer Engineering with a Mechatronics minor.",
+      "Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
+      "If you want something you've never had, you have to do something you've never done."
     ],
     "skills_caption": "Some technologies I've worked with:",
     "skills": [
@@ -263,31 +265,21 @@
             "abbreviation": "PHY 2402",
             "name": "Physics II Elec & Magnet",
             "credits": 3.0
-          }
-        ]
-      }
-    ],
-    "coursesInProgress": [
-      {
-        "term": "Fall 2023",
-        "courses": [
+          },
           {
-            "abbreviation": "ECE 4971",
-            "name": "Design Project - CPE",
+            "abbreviation": "ECE 2290",
+            "name": "Senior Capstone Design",
             "credits": 3.0
           },
           {
             "abbreviation": "ECE 5450",
             "name": "Microcontrollers & Applic",
             "credits": 3.0
-          },
-          {
-            "abbreviation": "THL 5005",
-            "name": "THM: Religs Tradtns ofMid East",
-            "credits": 3.0
           }
         ]
-      },
+      }
+    ],
+    "coursesInProgress": [
       {
         "term": "Spring 2024",
         "courses": [
@@ -309,6 +301,11 @@
           {
             "abbreviation": "MAT 4270",
             "name": "Numerical Analysis",
+            "credits": 3.0
+          },
+          {
+            "abbreviation": "ME 5240",
+            "name": "Mechatronics",
             "credits": 3.0
           }
         ]
@@ -372,25 +369,32 @@
     "project_items": [
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
-        "project_name": "Hycord Bot",
-        "description": "Discord.py program that uses Hypixel & PlayerDB APIs to allow users to link and access in-game data. Simply, a versatile Hypixel Discord bot.",
-        "resources_used": ["HTML", "Discord.py", "Hypixel API"],
-        "start_date": "Dec 2022",
+        "api_github_repo_link": "https://api.github.com/repos/DugboTek/NoteTakingAI",
+        "project_name": "ScribbAI - Audio Note Taking AI",
+        "description": "Software that takes audio input and converts it to text and creates summary notes. Utilizes Whisper API, and OpenAI GPT-3.5 API.",
+        "resources_used": [
+          "REACT",
+          "Whisper AI",
+          "GPT-3.5 API",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "start_date": "May 2023",
         "end_date": "Present",
         "links": [
           {
-            "href": "https://www.hycord.net",
+            "href": "https://www.scribb.ai/",
             "icon": "FiExternalLink",
             "data_tooltip": "Information Page"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Bot",
+            "href": "https://github.com/DugboTek/NoteTakingAI",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           },
           {
-            "href": "https://github.com/KevinTrinh1227/Hycord-Bot/archive/main.zip",
+            "href": "https://github.com//DugboTek/NoteTakingAI/archive/main.zip",
             "icon": "FaDownload",
             "data_tooltip": "Download Project"
           }

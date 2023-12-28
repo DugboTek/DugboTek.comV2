@@ -64,6 +64,17 @@ const WorkExperience = () => {
                     )}
                   </ul>
                 </Fade>
+                {experienceItems[activeJobIndex].organization ===
+                  "Publicis Sapient" && (
+                  <iframe
+                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7141514816577310721?compact=1"
+                    height="399"
+                    width="710"
+                    frameborder="0"
+                    allowfullscreen=""
+                    title="Embedded post"
+                  ></iframe>
+                )}
               </div>
             </div>
           </div>
