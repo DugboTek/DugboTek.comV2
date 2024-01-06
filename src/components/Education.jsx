@@ -9,13 +9,6 @@ const Education = () => {
   const [showButton, setShowButton] = useState(true);
 
   // Calculate the total credits for each year
-  const totalCreditsPerYear = education.years.map((year) => {
-    return parseFloat(
-      year.courses.reduce((total, course) => {
-        return total + course.credits;
-      }, 0)
-    );
-  });
 
   education.years.sort((a, b) => b.year - a.year);
 

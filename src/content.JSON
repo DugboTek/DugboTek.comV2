@@ -343,19 +343,6 @@
           "Designed and manufactured carbon fiber parts for the car using a CNC machine and 3D printer.",
           "2022 Michigan International Speedway FSAE competition 2nd place overall out of 99 international teams."
         ]
-      },
-
-      {
-        "organization": "Infinite Loops",
-        "title": "Club Vice President",
-        "start_date": "May 2022",
-        "end_date": " April 2023",
-        "description": [
-          "Supported the president in all aspects of club leadership, including meeting planning and execution, task delegation, and activity organization.",
-          "Managed meeting presentations and oversaw the work of other officers and club members.",
-          "Oversaw the organization's app development team where we created a Dart application to display top student favorite locations.",
-          "Collaborated with a team to enhance the growth of clients' businesses and traffic."
-        ]
       }
     ]
   },
@@ -402,9 +389,9 @@
       },
       {
         "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Reactfolio",
-        "project_name": "Reactfolio V2",
-        "description": "An e-portfolio built with React.js that utilizes GitHub API. Designed for public use and easy configuration. The second iteration of my website.",
+        "api_github_repo_link": "https://api.github.com/repos/DugboTek/DugboTek.comV2",
+        "project_name": "DugboTek.com V2",
+        "description": "An e-portfolio built with React.js that utilizes GitHub API. The second iteration of my website.",
         "resources_used": [
           "React.js",
           "NVM",
@@ -417,7 +404,7 @@
         "end_date": "Present",
         "links": [
           {
-            "href": "https://github.com/KevinTrinh1227/Reactfolio",
+            "href": "https://github.com/DugboTek/DugboTek.comV2",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
@@ -425,15 +412,22 @@
       },
       {
         "use_git_api": false,
-        "api_github_repo_link": "",
-        "project_name": "STMU Yelp",
-        "description": "Application that showcases popular locations for college students specifically for St. Mary's students. collaborated with an 7 person team.",
-        "resources_used": ["Dart/Flutter", "Andriod Studio"],
-        "start_date": "Sept 2022",
-        "end_date": "May 2023",
+        "api_github_repo_link": "https://api.github.com/repos/DugboTek/Car-Part-Fitment-ECommerce-Website",
+        "project_name": "Car Part Fitment E-Commerce",
+        "description": "car parts website that can sort by make, model, and year.",
+        "resources_used": [
+          "AWS CloudSearch",
+          "AWS Lambda",
+          "GraphQL",
+          "React.js",
+          "JavaScript",
+          "MongoDB"
+        ],
+        "start_date": "June 2023",
+        "end_date": "Aug 2023",
         "links": [
           {
-            "href": "https://github.com/sonono-no/Stmu-Yelp",
+            "href": "https://github.com/DugboTek/Car-Part-Fitment-ECommerce-Website",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
