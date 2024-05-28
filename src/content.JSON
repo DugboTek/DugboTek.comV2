@@ -24,8 +24,8 @@
     "main_header": "Hello, Sola here.",
     "main_subtitle": "Developer. Student. Creator.",
     "intro_bio": [
-      "I'm currently a Senior attending Villanova University,",
-      "Majoring in Computer Engineering with minor in Mechatronics.",
+      "I'm currently a Villanova University Graduate,",
+      "With a BS in Computer Engineering and minor in Mechatronics.",
       "I have a profound interest in Robotics, Machine Learning",
       "Full-stack development, and everything in between."
     ],
@@ -69,7 +69,7 @@
       "enable_section": true,
       "title": "~/Education",
       "navbar_name": "/Academics",
-      "description": "Courses that I have completed or am on track to complete. Current GPA: 3.39"
+      "description": "Courses that I have completed. Current GPA: 3.47"
     },
     "general": {
       "school": "Villanova University",
@@ -277,11 +277,10 @@
             "credits": 3.0
           }
         ]
-      }
-    ],
-    "coursesInProgress": [
+      },
       {
-        "term": "Spring 2024",
+        "year": 2024,
+        "semester": "Spring",
         "courses": [
           {
             "abbreviation": "CSC 4181",
