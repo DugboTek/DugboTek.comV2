@@ -29,6 +29,28 @@ const WorkExperience = () => {
           </div>
 
           <div className="col-sm-12">
+            <style>
+              {`
+                @media (max-width: 768px) {
+                  
+                  .wrapper {
+                    flex-direction: column;
+                  }
+                  .indicator {
+                    flex-direction: row;
+                    overflow-x: auto;
+                    padding-bottom: 10px;
+                  }
+                  .indicator li {
+                    margin-right: 10px;
+                    white-space: nowrap;
+                  }
+                  .content {
+                    margin-top: 20px;
+                  }
+                }
+              `}
+            </style>
             <div className="wrapper">
               <Fade triggerOnce={true}>
                 <ul className="indicator">
@@ -66,14 +88,26 @@ const WorkExperience = () => {
                 </Fade>
                 {experienceItems[activeJobIndex].organization ===
                   "Publicis Sapient" && (
+                  <div style={{ overflow: 'hidden', width: '100%', maxWidth: '710px', height: '399px' }}>
                   <iframe
                     src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7141514816577310721?compact=1"
                     height="399"
                     width="710"
-                    frameborder="0"
-                    allowfullscreen=""
+                    allowFullScreen=""
                     title="Embedded post"
+                    autoPlay="1"
+                    style={{ border: 'none', overflow: 'hidden' }}
                   ></iframe>
+                  </div>
+                )}
+                {experienceItems[activeJobIndex].organization === "T-Mobile" && (
+                  <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+                    <img 
+                      src="./images/Tmobilelogo.png" 
+                      alt="T-Mobile Logo" 
+                      style={{ width: '150px', height: 'auto' }}
+                    />
+                  </div>
                 )}
               </div>
             </div>

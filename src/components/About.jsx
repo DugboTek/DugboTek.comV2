@@ -76,9 +76,15 @@ const AboutMe = () => {
                     >
                       <img
                         src={aboutMe.headShotUrl}
-                        alt="RAAAA"
-                        className="myportrait"
-                      ></img>
+                        alt="Headshot"
+                        className="myportrait img-fluid"
+                        style={{
+                          maxWidth: '100%',
+                          height: 'auto',
+                          display: 'block',
+                          margin: '0 auto'
+                        }}
+                      />
                     </a>
                   </Fade>
                 </div>

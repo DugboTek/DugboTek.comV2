@@ -1,445 +1,469 @@
 {
-  "general": {
-    "first_name": "Oluwasola",
-    "middle_name": "Nathaniel",
-    "last_name": "Dugbo",
-    "navbar_social_links": {
-      "github": "https://github.com/DugboTek",
-      "handshake": "https://app.joinhandshake.com/stu/users/24749440",
-      "linkedin": "https://www.linkedin.com/in/sola-dugbo-8955a31a6/",
-      "email": "sdugbo@gmail.com"
-    }
-  },
-  "repo_stats": {
-    "section": {
-      "enable_section": true
-    },
-    "repo_link": "https://github.com/DugboTek/DugboTek.comV2",
-    "api_link": "https://api.github.com/repos/Dugbotek/DugboTek.comV2"
-  },
-  "intro_screen": {
-    "section": {
-      "enable_section": true
-    },
-    "main_header": "Hello, Sola here.",
-    "main_subtitle": "Developer. Student. Creator.",
-    "intro_bio": [
-      "I'm currently a Villanova University Graduate,",
-      "With a BS in Computer Engineering and minor in Mechatronics.",
-      "I have a profound interest in Robotics, Machine Learning",
-      "Full-stack development, and everything in between."
-    ],
-    "email_button": "Say hello to me!"
-  },
-  "about_me": {
-    "section": {
-      "enable_section": true,
-      "title": "~/About",
-      "navbar_name": "/About",
-      "description": "Brief information about me and some of my interests."
-    },
-    "headShotUrl": "./images/headshotphoto_clear.png",
-    "bio": [
-      "All my life I have strived to gain the most out of understanding and learning from mistakes. I find that not only learning from others but also self-analysis is important for growth.",
-      "I find my passion for helping others through robotics and I am continuing that dream at Villanova University studying Computer Engineering with a Mechatronics minor.",
-      "Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
-      "If you want something you've never had, you have to do something you've never done."
-    ],
-    "skills_caption": "Some technologies I've worked with:",
-    "skills": [
-      "Java",
-      "C",
-      "C++",
-      "JavaScript ES6+",
-      "Python 3",
-      "HTML & CSS",
-      "Swift",
-      "SQL",
-      "React.js",
-      "Node.js",
-      "Linux OS & Git",
-      "AWS & Azure",
-      "Docker",
-      "MongoDB",
-      "Bit level manipulation"
-    ]
-  },
-  "academics": {
-    "section": {
-      "enable_section": true,
-      "title": "~/Education",
-      "navbar_name": "/Academics",
-      "description": "Courses that I have completed. Current GPA: 3.47"
-    },
-    "general": {
-      "school": "Villanova University",
-      "degree": "Bachelor of Science in Computer Engineering",
-      "start_year": 2020,
-      "end_year": 2024
-    },
-    "years": [
+	"general": {
+		"first_name": "Oluwasola",
+		"middle_name": "Nathaniel",
+		"last_name": "Dugbo",
+		"navbar_social_links": {
+			"github": "https://github.com/DugboTek",
+			"handshake": "https://app.joinhandshake.com/stu/users/24749440",
+			"linkedin": "https://www.linkedin.com/in/sola-dugbo-8955a31a6/",
+			"email": "sdugbo@gmail.com"
+		}
+	},
+	"repo_stats": {
+		"section": {
+			"enable_section": true
+		},
+		"repo_link": "https://github.com/DugboTek/DugboTek.comV2",
+		"api_link": "https://api.github.com/repos/Dugbotek/DugboTek.comV2"
+	},
+	"intro_screen": {
+		"section": {
+			"enable_section": true
+		},
+		"main_header": "Hello, Sola here.",
+		"main_subtitle": "Developer. Student. Creator.",
+		"intro_bio": [
+			"I'm currently a Villanova University Graduate,",
+			"With a BS in Computer Engineering and minor in Mechatronics.",
+			"I have a profound interest in Robotics, Machine Learning",
+			"Full-stack development, and everything in between."
+		],
+		"email_button": "Say hello to me!"
+	},
+	"about_me": {
+		"section": {
+			"enable_section": true,
+			"title": "~/About",
+			"navbar_name": "/About",
+			"description": "Brief information about me and some of my interests."
+		},
+		"headShotUrl": "./images/headshotphoto_clear.png",
+		"bio": [
+			"All my life I have strived to gain the most out of understanding and learning from mistakes. I find that not only learning from others but also self-analysis is important for growth.",
+			"I find my passion for helping others through robotics and I am continuing that dream at Villanova University studying Computer Engineering with a Mechatronics minor.",
+			"Some of my current goals are to build experience and to acquire meaningful connections for personal development.",
+			"If you want something you've never had, you have to do something you've never done."
+		],
+		"skills_caption": "Some technologies I've worked with:",
+		"skills": [
+			"Java",
+			"C",
+			"C++",
+			"JavaScript ES6+",
+			"Python 3",
+			"HTML & CSS",
+			"Swift",
+			"SQL",
+			"React.js",
+			"Node.js",
+			"Linux OS & Git",
+			"AWS & Azure",
+			"Docker",
+			"MongoDB",
+			"Bit level manipulation"
+		]
+	},
+	"academics": {
+		"section": {
+			"enable_section": true,
+			"title": "~/Education",
+			"navbar_name": "/Academics",
+			"description": "Courses that I have completed. Current GPA: 3.47"
+		},
+		"general": {
+			"school": "Villanova University",
+			"degree": "Bachelor of Science in Computer Engineering",
+			"start_year": 2020,
+			"end_year": 2024
+		},
+		"years": [
+			{
+				"year": 2020,
+				"semester": "Fall",
+				"courses": [
+					{
+						"abbreviation": "ACS 1000",
+						"name": "Ancients",
+						"credits": 3
+					},
+					{
+						"abbreviation": "CHM 1151",
+						"name": "General Chemistry I",
+						"credits": 4
+					},
+					{
+						"abbreviation": "EGR 1200",
+						"name": "Egr. Interdisciplinary Proj. I",
+						"credits": 3
+					},
+					{
+						"abbreviation": "MAT 1500",
+						"name": "Calculus I",
+						"credits": 4
+					},
+					{
+						"abbreviation": "THL 1000",
+						"name": "Faith, Reason, and Culture",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2021,
+				"semester": "Spring",
+				"courses": [
+					{
+						"abbreviation": "ACS 1001",
+						"name": "Moderns",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 1205",
+						"name": "ECE Freshman Projects",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 1620",
+						"name": "Egr Prog & Applic",
+						"credits": 3
+					},
+					{
+						"abbreviation": "EGR 1002",
+						"name": "Career Compass First Yr A",
+						"credits": 0.5
+					},
+					{
+						"abbreviation": "MAT 1505",
+						"name": "Calculus II",
+						"credits": 4
+					},
+					{
+						"abbreviation": "PHY 2400",
+						"name": "Physics I Mechanics",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2021,
+				"semester": "Spring",
+				"courses": [
+					{
+						"abbreviation": "ECE 2044",
+						"name": "Fundamentals of CPE II",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 2409",
+						"name": "Fundamentals of MATLAB",
+						"credits": 2
+					},
+					{
+						"abbreviation": "ECE 2620",
+						"name": "C++, Algorithms & Data Struct",
+						"credits": 4
+					},
+					{
+						"abbreviation": "MAT 2705",
+						"name": "Diff Equation with Linear Alg",
+						"credits": 4
+					},
+					{
+						"abbreviation": "ME 2100",
+						"name": "Statics",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2022,
+				"semester": "Spring",
+				"courses": [
+					{
+						"abbreviation": "CSC 1300",
+						"name": "Discrete Structures",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 2030",
+						"name": "Electrical Circuit Fundamental",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 2042",
+						"name": "Fundamentals of CPE I",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 2043",
+						"name": "Fund of Comp Engineering I Lab",
+						"credits": 1
+					},
+					{
+						"abbreviation": "ME 2101",
+						"name": "Dynamic Systems I",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2022,
+				"semester": "Fall",
+				"courses": [
+					{
+						"abbreviation": "CRM 1001",
+						"name": "Introduction to Criminology",
+						"credits": 3
+					},
+					{
+						"abbreviation": "CSC 2014",
+						"name": "Java Bootcamp",
+						"credits": 1
+					},
+					{
+						"abbreviation": "ECE 3445",
+						"name": "Computer Architecture",
+						"credits": 4
+					},
+					{
+						"abbreviation": "ECE 3450",
+						"name": "Digital Electronics",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 3600",
+						"name": "Operating Systems",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 3720",
+						"name": "Eng Probability & Statistics",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2023,
+				"semester": "Spring",
+				"courses": [
+					{
+						"abbreviation": "ECE 3245",
+						"name": "Discrete Time Signals & System",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 3476",
+						"name": "Computer and Network Security",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 4470",
+						"name": "Computer Networks",
+						"credits": 4
+					}
+				]
+			},
+			{
+				"year": 2023,
+				"semester": "Fall",
+				"courses": [
+					{
+						"abbreviation": "CSC 4480",
+						"name": "Principles of Database Systems",
+						"credits": 3
+					},
+					{
+						"abbreviation": "PHY 2402",
+						"name": "Physics II Elec & Magnet",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 2290",
+						"name": "Senior Capstone Design",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 5450",
+						"name": "Microcontrollers & Applic",
+						"credits": 3
+					}
+				]
+			},
+			{
+				"year": 2024,
+				"semester": "Spring",
+				"courses": [
+					{
+						"abbreviation": "CSC 4181",
+						"name": "Compiler Construction",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ECE 4973",
+						"name": "Design Project Report - CPE",
+						"credits": 1
+					},
+					{
+						"abbreviation": "ECE 5390",
+						"name": "Control System Design",
+						"credits": 4
+					},
+					{
+						"abbreviation": "MAT 4270",
+						"name": "Numerical Analysis",
+						"credits": 3
+					},
+					{
+						"abbreviation": "ME 5240",
+						"name": "Mechatronics",
+						"credits": 3
+					}
+				]
+			}
+		]
+	},
+	"experience": {
+		"section": {
+			"enable_section": true,
+			"title": "~/Experience",
+			"navbar_name": "/Experience",
+			"description": "Positions, team projects, or organizations I am/have been a part of."
+		},
+		"experience_items": [
+			
+			{
+				"organization": "Publicis Sapient",
+				"link": "https://npengagement.com",
+				"title": "Full Stack Developer Intern",
+				"start_date": "June 2023",
+				"end_date": "August 2023",
+				"description": [
+					"Led full stack development of an E-Commerce car parts web app for Polaris, Utilized AWS CloudSearch, Lambda, Aurora, MySQL, GraphQL, and React.",
+					"Led a team of eight intern developers as the only Full Stack Engineer.",
+					"Learned architecture design and CICD in an Agile software development cycle. "
+				]
+			},
       {
-        "year": 2020,
-        "semester": "Fall",
-        "courses": [
-          {
-            "abbreviation": "ACS 1000",
-            "name": "Ancients",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "CHM 1151",
-            "name": "General Chemistry I",
-            "credits": 4.0
-          },
-          {
-            "abbreviation": "EGR 1200",
-            "name": "Egr. Interdisciplinary Proj. I",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "MAT 1500",
-            "name": "Calculus I",
-            "credits": 4.0
-          },
-          {
-            "abbreviation": "THL 1000",
-            "name": "Faith, Reason, and Culture",
-            "credits": 3.0
-          }
-        ]
-      },
-      {
-        "year": 2021,
-        "semester": "Spring",
-        "courses": [
-          { "abbreviation": "ACS 1001", "name": "Moderns", "credits": 3.0 },
-          {
-            "abbreviation": "ECE 1205",
-            "name": "ECE Freshman Projects",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 1620",
-            "name": "Egr Prog & Applic",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "EGR 1002",
-            "name": "Career Compass First Yr A",
-            "credits": 0.5
-          },
-          { "abbreviation": "MAT 1505", "name": "Calculus II", "credits": 4.0 },
-          {
-            "abbreviation": "PHY 2400",
-            "name": "Physics I Mechanics",
-            "credits": 3.0
-          }
-        ]
-      },
-      {
-        "year": 2021,
-        "semester": "Spring",
-        "courses": [
-          {
-            "abbreviation": "ECE 2044",
-            "name": "Fundamentals of CPE II",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 2409",
-            "name": "Fundamentals of MATLAB",
-            "credits": 2.0
-          },
-          {
-            "abbreviation": "ECE 2620",
-            "name": "C++, Algorithms & Data Struct",
-            "credits": 4.0
-          },
-          {
-            "abbreviation": "MAT 2705",
-            "name": "Diff Equation with Linear Alg",
-            "credits": 4.0
-          },
-          { "abbreviation": "ME 2100", "name": "Statics", "credits": 3.0 }
-        ]
-      },
-      {
-        "year": 2022,
-        "semester": "Spring",
-        "courses": [
-          {
-            "abbreviation": "CSC 1300",
-            "name": "Discrete Structures",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 2030",
-            "name": "Electrical Circuit Fundamental",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 2042",
-            "name": "Fundamentals of CPE I",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 2043",
-            "name": "Fund of Comp Engineering I Lab",
-            "credits": 1.0
-          },
-          {
-            "abbreviation": "ME 2101",
-            "name": "Dynamic Systems I",
-            "credits": 3.0
-          }
-        ]
-      },
-      {
-        "year": 2022,
-        "semester": "Fall",
-        "courses": [
-          {
-            "abbreviation": "CRM 1001",
-            "name": "Introduction to Criminology",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "CSC 2014",
-            "name": "Java Bootcamp",
-            "credits": 1.0
-          },
-          {
-            "abbreviation": "ECE 3445",
-            "name": "Computer Architecture",
-            "credits": 4.0
-          },
-          {
-            "abbreviation": "ECE 3450",
-            "name": "Digital Electronics",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 3600",
-            "name": "Operating Systems",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 3720",
-            "name": "Eng Probability & Statistics",
-            "credits": 3.0
-          }
-        ]
-      },
-      {
-        "year": 2023,
-        "semester": "Spring",
-        "courses": [
-          {
-            "abbreviation": "ECE 3245",
-            "name": "Discrete Time Signals & System",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 3476",
-            "name": "Computer and Network Security",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 4470",
-            "name": "Computer Networks",
-            "credits": 4.0
-          }
-        ]
-      },
-      {
-        "year": 2023,
-        "semester": "Fall",
-        "courses": [
-          {
-            "abbreviation": "CSC 4480",
-            "name": "Principles of Database Systems",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "PHY 2402",
-            "name": "Physics II Elec & Magnet",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 2290",
-            "name": "Senior Capstone Design",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 5450",
-            "name": "Microcontrollers & Applic",
-            "credits": 3.0
-          }
-        ]
-      },
-      {
-        "year": 2024,
-        "semester": "Spring",
-        "courses": [
-          {
-            "abbreviation": "CSC 4181",
-            "name": "Compiler Construction",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ECE 4973",
-            "name": "Design Project Report - CPE",
-            "credits": 1.0
-          },
-          {
-            "abbreviation": "ECE 5390",
-            "name": "Control System Design",
-            "credits": 4.0
-          },
-          {
-            "abbreviation": "MAT 4270",
-            "name": "Numerical Analysis",
-            "credits": 3.0
-          },
-          {
-            "abbreviation": "ME 5240",
-            "name": "Mechatronics",
-            "credits": 3.0
-          }
-        ]
-      }
-    ]
-  },
-  "experience": {
-    "section": {
-      "enable_section": true,
-      "title": "~/Experience",
-      "navbar_name": "/Experience",
-      "description": "Positions, team projects, or organizations I am/have been a part of."
-    },
-    "experience_items": [
-      {
-        "organization": "Publicis Sapient",
-        "link": "https://npengagement.com",
-        "title": "Full Stack Developer Intern",
-        "start_date": "June 2023",
-        "end_date": "August 2023",
-        "description": [
-          "Led full stack development of an E-Commerce car parts web app for Polaris, Utilized AWS CloudSearch, Lambda, Aurora, MySQL, GraphQL, and React.",
-          "Led a team of eight intern developers as the only Full Stack Engineer.",
-          "Learned architecture design and CICD in an Agile software development cycle. "
-        ]
-      },
-      {
-        "organization": "Formula SAE - Nova Racing",
-        "title": "Driver Controls Lead",
-        "start_date": "Jan 2021",
-        "end_date": " May 2024",
-        "description": [
-          "Designed, manufactured, and validated parts for formula-style race car to compete in a collegiate competition.",
-          "Worked with the team to design and implement a custom steering wheel with a CAN bus interface to control the car's systems.",
-          "Designed and manufactured carbon fiber parts for the car using a CNC machine and 3D printer.",
-          "2022 Michigan International Speedway FSAE competition 2nd place overall out of 99 international teams."
-        ]
-      }
-    ]
-  },
-  "projects": {
-    "section": {
-      "enable_section": true,
-      "title": "~/Projects",
-      "navbar_name": "/Projects",
-      "description": "Some of my most recent or past favorite creations or work."
-    },
-    "project_items": [
-      {
-        "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/DugboTek/NoteTakingAI",
-        "project_name": "ScribbAI - Audio Note Taking AI",
-        "description": "Software that takes audio input and converts it to text and creates summary notes. Utilizes Whisper API, and OpenAI GPT-3.5 API.",
-        "resources_used": [
-          "REACT",
-          "Whisper AI",
-          "GPT-3.5 API",
-          "HTML",
-          "CSS",
-          "JavaScript"
-        ],
-        "start_date": "May 2023",
-        "end_date": "Present",
-        "links": [
-          {
-            "href": "https://www.scribb.ai/",
-            "icon": "FiExternalLink",
-            "data_tooltip": "Information Page"
-          },
-          {
-            "href": "https://github.com/DugboTek/NoteTakingAI",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          },
-          {
-            "href": "https://github.com//DugboTek/NoteTakingAI/archive/main.zip",
-            "icon": "FaDownload",
-            "data_tooltip": "Download Project"
-          }
-        ]
-      },
-      {
-        "use_git_api": true,
-        "api_github_repo_link": "https://api.github.com/repos/DugboTek/DugboTek.comV2",
-        "project_name": "DugboTek.com V2",
-        "description": "An e-portfolio built with React.js that utilizes GitHub API. The second iteration of my website.",
-        "resources_used": [
-          "React.js",
-          "NVM",
-          "HTML & CSS",
-          "JavaScript",
-          "HTML",
-          "CSS"
-        ],
-        "start_date": "Sept 2023",
-        "end_date": "Present",
-        "links": [
-          {
-            "href": "https://github.com/DugboTek/DugboTek.comV2",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          }
-        ]
-      },
-      {
-        "use_git_api": false,
-        "api_github_repo_link": "https://api.github.com/repos/DugboTek/Car-Part-Fitment-ECommerce-Website",
-        "project_name": "Car Part Fitment E-Commerce",
-        "description": "car parts website that can sort by make, model, and year.",
-        "resources_used": [
-          "AWS CloudSearch",
-          "AWS Lambda",
-          "GraphQL",
-          "React.js",
-          "JavaScript",
-          "MongoDB"
-        ],
-        "start_date": "June 2023",
-        "end_date": "Aug 2023",
-        "links": [
-          {
-            "href": "https://github.com/DugboTek/Car-Part-Fitment-ECommerce-Website",
-            "icon": "FaGithub",
-            "data_tooltip": "Visit GitHub Repo"
-          }
-        ]
-      }
-    ]
-  },
-  "footer": {
-    "line_one": "Built & designed by",
-    "copyright_line": "All rights reserved."
-  },
-  "error_page": {
-    "title": "Error 404",
-    "description": "The page you are looking for does not exist. Chose one of the following links to continue."
-  }
+				"organization": "T-Mobile",
+				"title": "Software Engineering Intern",
+				"start_date": "June 2024",
+				"end_date": "September 2024",
+				"description": [
+					"Worked on a team using AGILE and SCRUM methods to develop a high-load production Java/Spring Boot API for Swift applications.",
+					"Quickly translated business requirements to working features.",
+					"Gained experience in developing enterprise-level applications and working in a professional software development environment."
+				]
+			},
+			{
+				"organization": "Formula SAE - Nova Racing",
+				"title": "Driver Controls Lead",
+				"start_date": "Jan 2021",
+				"end_date": " May 2024",
+				"description": [
+					"Designed, manufactured, and validated parts for formula-style race car to compete in a collegiate competition.",
+					"Worked with the team to design and implement a custom steering wheel with a CAN bus interface to control the car's systems.",
+					"Designed and manufactured carbon fiber parts for the car using a CNC machine and 3D printer.",
+					"2022 Michigan International Speedway FSAE competition 2nd place overall out of 99 international teams."
+				]
+			}
+		]
+	},
+	"projects": {
+		"section": {
+			"enable_section": true,
+			"title": "~/Projects",
+			"navbar_name": "/Projects",
+			"description": "Some of my most recent or past favorite creations or work."
+		},
+		"project_items": [
+			{
+				"use_git_api": true,
+				"api_github_repo_link": "https://api.github.com/repos/DugboTek/NoteTakingAI",
+				"project_name": "ScribbAI - Audio Note Taking AI",
+				"description": "Software that takes audio input and converts it to text and creates summary notes. Utilizes Whisper API, and OpenAI GPT-3.5 API.",
+				"resources_used": [
+					"REACT",
+					"Whisper AI",
+					"GPT-3.5 API",
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"start_date": "May 2023",
+				"end_date": "Present",
+				"links": [
+					{
+						"href": "https://www.scribb.ai/",
+						"icon": "FiExternalLink",
+						"data_tooltip": "Information Page"
+					},
+					{
+						"href": "https://github.com/DugboTek/NoteTakingAI",
+						"icon": "FaGithub",
+						"data_tooltip": "Visit GitHub Repo"
+					},
+					{
+						"href": "https://github.com//DugboTek/NoteTakingAI/archive/main.zip",
+						"icon": "FaDownload",
+						"data_tooltip": "Download Project"
+					}
+				]
+			},
+			{
+				"use_git_api": true,
+				"api_github_repo_link": "https://api.github.com/repos/DugboTek/DugboTek.comV2",
+				"project_name": "DugboTek.com V2",
+				"description": "An e-portfolio built with React.js that utilizes GitHub API. The second iteration of my website.",
+				"resources_used": [
+					"React.js",
+					"NVM",
+					"HTML & CSS",
+					"JavaScript",
+					"HTML",
+					"CSS"
+				],
+				"start_date": "Sept 2023",
+				"end_date": "Present",
+				"links": [
+					{
+						"href": "https://github.com/DugboTek/DugboTek.comV2",
+						"icon": "FaGithub",
+						"data_tooltip": "Visit GitHub Repo"
+					}
+				]
+			},
+			{
+				"use_git_api": false,
+				"api_github_repo_link": "https://api.github.com/repos/DugboTek/Car-Part-Fitment-ECommerce-Website",
+				"project_name": "Car Part Fitment E-Commerce",
+				"description": "car parts website that can sort by make, model, and year.",
+				"resources_used": [
+					"AWS CloudSearch",
+					"AWS Lambda",
+					"GraphQL",
+					"React.js",
+					"JavaScript",
+					"MongoDB"
+				],
+				"start_date": "June 2023",
+				"end_date": "Aug 2023",
+				"links": [
+					{
+						"href": "https://github.com/DugboTek/Car-Part-Fitment-ECommerce-Website",
+						"icon": "FaGithub",
+						"data_tooltip": "Visit GitHub Repo"
+					}
+				]
+			}
+		]
+	},
+	"footer": {
+		"line_one": "Built & designed by",
+		"copyright_line": "All rights reserved."
+	},
+	"error_page": {
+		"title": "Error 404",
+		"description": "The page you are looking for does not exist. Chose one of the following links to continue."
+	}
 }
