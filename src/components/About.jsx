@@ -39,7 +39,7 @@ const AboutMe = () => {
                     </Fade>
                   ))}
                   <p className="about-me-desc">{aboutMe.skills_caption}</p>
-                  <div className="languages-list">
+                  <div className="languages-list">a
                     <ul>
                       {firstHalf.map((skill, index) => (
                         <Fade
@@ -75,7 +75,7 @@ const AboutMe = () => {
                       className="col-6-img-a"
                     >
                       <img
-                        src="/images/headshotphoto.jpg"
+                        src={aboutMe.headShotUrl}
                         alt="RAAAA"
                         className="myportrait"
                       ></img>
