@@ -18,23 +18,23 @@ const Hero = () => {
         </p>
 
         <div className="relative mt-20 min-h-[600px] md:min-h-[800px]">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-4 relative h-[800px]">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-4 relative h-[800px] isolate">
             {/* Cards with consistent spacing */}
-            <div className="relative md:top-[160px] z-10 h-[80px]">
+            <div className="relative md:top-[160px] h-[80px]">
               <SystemAnalysisCard className="w-full max-w-[250px] mx-auto" />
             </div>
-            <div className="relative md:top-[400px] z-10 h-[80px]">
+            <div className="relative md:top-[400px] h-[80px]">
               <IntegrationCard className="w-full max-w-[250px] mx-auto" />
             </div>
-            <div className="relative md:top-[160px] z-10 h-[80px]">
+            <div className="relative md:top-[160px] h-[80px]">
               <AIEnhancementCard className="w-full max-w-[250px] mx-auto" />
             </div>
-            <div className="relative md:top-[400px] z-10 h-[80px]">
+            <div className="relative md:top-[400px] h-[80px]">
               <ResultsCard className="w-full max-w-[250px] mx-auto" />
             </div>
 
-            {/* Connecting Lines - Hidden on mobile */}
-            <div className="hidden md:block absolute inset-0 pointer-events-none">
+            {/* Desktop Connecting Lines */}
+            <div className="hidden md:block absolute inset-0 pointer-events-none -z-10">
               <svg className="w-full h-full" viewBox="0 0 1200 800" preserveAspectRatio="none">
                 {/* Analysis to Integration */}
                 <motion.path
@@ -72,13 +72,63 @@ const Hero = () => {
                   transition={{ duration: 2, ease: "easeInOut", repeat: Infinity, delay: 1 }}
                 />
 
-                {/* Debug Grid */}
+                {/* Desktop Grid */}
                 <line x1="0" y1="200" x2="1200" y2="200" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
                 <line x1="0" y1="440" x2="1200" y2="440" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
                 <line x1="250" y1="0" x2="250" y2="800" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
                 <line x1="450" y1="0" x2="450" y2="800" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
                 <line x1="750" y1="0" x2="750" y2="800" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
                 <line x1="950" y1="0" x2="950" y2="800" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+              </svg>
+            </div>
+
+            {/* Mobile Connecting Lines */}
+            <div className="block md:hidden absolute inset-0 pointer-events-none -z-10">
+              <svg className="w-full h-full" viewBox="0 0 400 800" preserveAspectRatio="none">
+                {/* Analysis to Integration */}
+                <motion.path
+                  d="M200 80 C200 120, 200 160, 200 200"
+                  className="stroke-[3]"
+                  stroke="rgb(99, 179, 237)"
+                  strokeDasharray="6 6"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0.2 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity }}
+                />
+                
+                {/* Integration to AI */}
+                <motion.path
+                  d="M200 280 C200 320, 200 360, 200 400"
+                  className="stroke-[3]"
+                  stroke="rgb(129, 140, 248)"
+                  strokeDasharray="6 6"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0.2 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity, delay: 0.5 }}
+                />
+                
+                {/* AI to Results */}
+                <motion.path
+                  d="M200 480 C200 520, 200 560, 200 600"
+                  className="stroke-[3]"
+                  stroke="rgb(34, 197, 94)"
+                  strokeDasharray="6 6"
+                  fill="none"
+                  initial={{ pathLength: 0, opacity: 0.2 }}
+                  animate={{ pathLength: 1, opacity: 0.4 }}
+                  transition={{ duration: 1.5, ease: "easeInOut", repeat: Infinity, delay: 1 }}
+                />
+
+                {/* Mobile Grid */}
+                <line x1="0" y1="80" x2="400" y2="80" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+                <line x1="0" y1="200" x2="400" y2="200" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+                <line x1="0" y1="280" x2="400" y2="280" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+                <line x1="0" y1="400" x2="400" y2="400" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+                <line x1="0" y1="480" x2="400" y2="480" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+                <line x1="0" y1="600" x2="400" y2="600" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
+                <line x1="200" y1="0" x2="200" y2="800" stroke="rgba(255,0,0,0.1)" strokeWidth="1" />
               </svg>
             </div>
           </div>
