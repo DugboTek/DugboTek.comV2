@@ -10,7 +10,8 @@ export default {
         clay: {
           text: 'rgb(19, 21, 23)',
           subtext: 'rgb(71, 74, 77)',
-          background: '#FFFFFF',
+          background: '#F8F9FA',
+          surface: '#FFFFFF',
           lines: {
             blue: 'rgb(99, 179, 237)',
             pink: 'rgb(237, 100, 166)',
@@ -40,7 +41,7 @@ export default {
         'subtitle': '683px',
       },
       boxShadow: {
-        'card': '0px 4px 12px rgba(0, 0, 0, 0.05)',
+        'card': '0px 8px 24px rgba(0, 0, 0, 0.08)',
       },
     },
   },
