@@ -1,6 +1,7 @@
 import Hero from '../components/sections/Hero'
 import ProjectSection from '../components/sections/ProjectSection'
 import ProviderGrid from '../components/sections/ProviderGrid'
+import AboutSection from '../components/sections/AboutSection'
 import { serviceProviders } from '../data/serviceProviders'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <ProjectSection />
       <ProviderGrid providers={serviceProviders} />
+      <AboutSection />
     </div>
   )
 }
