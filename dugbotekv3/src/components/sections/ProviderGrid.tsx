@@ -131,14 +131,18 @@ export const ProviderGrid: React.FC<ProviderGridProps> = ({ providers }) => {
                 ${isVisible ? 'opacity-100' : 'opacity-0'}
               `}
             >
-              <span 
+              <div 
                 className={`
-                  text-3xl transform transition-transform duration-200
+                  w-8 h-8 relative transition-transform duration-200
                   ${isVisible ? 'scale-100' : 'scale-90'}
                 `}
               >
-                {provider.emoji}
-              </span>
+                <img 
+                  src={provider.logo} 
+                  alt={provider.name}
+                  className="w-full h-full object-contain"
+                />
+              </div>
             </div>
           </div>
         );
