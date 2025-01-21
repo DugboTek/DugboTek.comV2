@@ -3,6 +3,7 @@ import SystemAnalysisCard from './SystemAnalysisCard'
 import IntegrationCard from './IntegrationCard'
 import AIEnhancementCard from './AIEnhancementCard'
 import ResultsCard from './ResultsCard'
+import TrustedCompanies from './TrustedCompanies'
 
 const Hero = () => {
   return (
@@ -45,7 +46,7 @@ const Hero = () => {
                   fill="none"
                   initial={{ pathLength: 0, opacity: 0.2 }}
                   animate={{ pathLength: 1, opacity: 0.4 }}
-                  transition={{ duration: 2, ease: "easeInOut", repeat: Infinity }}
+                  transition={{ duration: 2, ease: "easeInOut" }}
                 />
                 
                 {/* Integration to AI */}
@@ -57,7 +58,7 @@ const Hero = () => {
                   fill="none"
                   initial={{ pathLength: 0, opacity: 0.2 }}
                   animate={{ pathLength: 1, opacity: 0.4 }}
-                  transition={{ duration: 2, ease: "easeInOut", repeat: Infinity, delay: 0.5 }}
+                  transition={{ duration: 2, ease: "easeInOut", delay: 0.5 }}
                 />
                 
                 {/* AI to Results */}
@@ -69,7 +70,7 @@ const Hero = () => {
                   fill="none"
                   initial={{ pathLength: 0, opacity: 0.2 }}
                   animate={{ pathLength: 1, opacity: 0.4 }}
-                  transition={{ duration: 2, ease: "easeInOut", repeat: Infinity, delay: 1 }}
+                  transition={{ duration: 2, ease: "easeInOut", delay: 1 }}
                 />
 
                 {/* Desktop Grid */}
@@ -133,6 +134,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
+
+        {/* Trusted Companies Section */}
+        <TrustedCompanies />
       </div>
     </section>
   )
