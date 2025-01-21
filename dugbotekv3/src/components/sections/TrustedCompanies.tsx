@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 // Import company logos
 import microsoft from '../../assets/connections/Microsoft_logo.svg.webp';
@@ -29,8 +30,58 @@ const companies = [
 
 export const TrustedCompanies: React.FC = () => {
   return (
-    <div className="mt-24 w-screen relative left-[50%] right-[50%] -ml-[50vw] -mr-[50vw] bg-indigo-100">
-      <div className="py-16">
+    <div className="mt-48 w-screen relative left-[50%] right-[50%] -ml-[50vw] -mr-[50vw] bg-white overflow-hidden">
+      {/* Background Grid */}
+      <div className="absolute inset-0 pointer-events-none -z-10">
+        <svg className="w-full h-full" viewBox="0 0 1200 400" preserveAspectRatio="none">
+          {/* Horizontal Lines */}
+          {[...Array(8)].map((_, i) => (
+            <motion.line
+              key={`h-${i}`}
+              x1="0"
+              y1={i * 50}
+              x2="1200"
+              y2={i * 50}
+              stroke="rgba(99, 102, 241, 0.2)"
+              strokeWidth="2"
+              initial={{ pathLength: 0, opacity: 0 }}
+              animate={{ pathLength: 1, opacity: 0.7 }}
+              transition={{
+                duration: 2,
+                delay: i * 0.2,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut"
+              }}
+            />
+          ))}
+          
+          {/* Vertical Lines */}
+          {[...Array(12)].map((_, i) => (
+            <motion.line
+              key={`v-${i}`}
+              x1={i * 100}
+              y1="0"
+              x2={i * 100}
+              y2="400"
+              stroke="rgba(236, 72, 153, 0.2)"
+              strokeWidth="2"
+              initial={{ pathLength: 0, opacity: 0 }}
+              animate={{ pathLength: 1, opacity: 0.7 }}
+              transition={{
+                duration: 2,
+                delay: i * 0.1,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut"
+              }}
+            />
+          ))}
+        </svg>
+      </div>
+
+      {/* Content */}
+      <div className="py-16 relative z-0">
         <div className="max-w-7xl mx-auto px-4">
           <h3 className="text-2xl font-semibold text-center mb-12 text-clay-text">
             CONNECT WITH A LIBRARY OF 2000+ EXISTING BUSINESS TOOLS
